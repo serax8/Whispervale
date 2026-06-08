@@ -1,2 +1,7 @@
 - name: Sync GitHub to Hugging Face Hub
   uses: huggingface/hub-sync@v0.1.0
+  with:
+    user-access-token: ${{ secrets.HF_TOKEN }}
+    repo-type: space
+    repo-name: serax8/whispervale
+    local-dir: ./
