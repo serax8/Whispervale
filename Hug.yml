@@ -1,0 +1,2 @@
+- name: Sync GitHub to Hugging Face Hub
+  uses: huggingface/hub-sync@v0.1.0
